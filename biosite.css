@@ -1,0 +1,21 @@
+ 
+ /* Not 100% finished */
+ body {
+    background-color: #DEC1AB;
+}
+
+h1 {
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+}
+
+.nav {
+    font-family: 'Oswald', sans-serif;
+    text-align: center;
+    display: inline;
+}
+
+li {
+    display: inline;
+    padding: 50px;
+}
