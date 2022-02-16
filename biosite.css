@@ -1,21 +1,31 @@
- 
- /* Not 100% finished */
  body {
     background-color: #DEC1AB;
 }
 
 h1 {
     text-align: center;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Poppins',Verdana, sans-serif;
 }
 
 .nav {
-    font-family: 'Oswald', sans-serif;
+    font-family: 'Oswald',Arial, sans-serif;
     text-align: center;
     display: inline;
+    text-decoration: none;
 }
 
 li {
     display: inline;
     padding: 50px;
+}
+
+#accomplishments {
+    text-align: center;
+}
+
+#portrait {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
 }
