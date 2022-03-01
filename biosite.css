@@ -1,10 +1,14 @@
  body {
-    background-color: #DEC1AB;
+    background-image: url('images/baseball-background.jpeg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
 }
 
-h1 {
+h1, h2 {
     text-align: center;
     font-family: 'Poppins',Verdana, sans-serif;
+    color: rgb(192, 37, 37);
 }
 
 .nav {
@@ -27,5 +31,27 @@ li {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 50%;
+    width: 400px;
+    height: 500px;
+}
+
+figcaption {
+    color: rgb(192, 37, 37);
+    text-align: center;
+}
+
+#image-gallery {
+    margin-top: 2%;
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+
+img {
+    width: 400px;
+    height: 350px;
+}
+
+p {
+    padding-left: 300px;
+    padding-right: 300px;
 }
